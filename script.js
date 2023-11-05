@@ -14,6 +14,7 @@ val += parseInt(price[4].innerText)
 
 const p = document.createElement("p");
 p.innerText = val;
+	p.id = "ans";
 document.body.appendChild(p);
 };
 
